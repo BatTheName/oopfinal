@@ -24,9 +24,13 @@ void Card::setCardType(string newType)
 
 int Card::getCardNumber()
 {
-
+	return cardNumber;
 }
 
+string Card::getCardType()
+{
+	return cardType;
+}
 string Card::getCardType()
 {
 
