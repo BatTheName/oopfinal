@@ -31,7 +31,3 @@ string Card::getCardType()
 {
 	return cardType;
 }
-string Card::getCardType()
-{
-
-}
