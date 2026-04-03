@@ -19,8 +19,8 @@ public:
 	void setCardNumber(int newNumber);
 	void setCardType(string newType);
 
-	int getCardNumber();
-	string getCardType();
+	int getCardNumber() const;
+	string getCardType() const;
 };
 
 
