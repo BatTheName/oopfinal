@@ -22,12 +22,12 @@ void Card::setCardType(string newType)
 	cardType = newType;
 }
 
-int Card::getCardNumber()
+int Card::getCardNumber() const
 {
 	return cardNumber;
 }
 
-string Card::getCardType()
+string Card::getCardType() const
 {
 	return cardType;
 }
